@@ -1,0 +1,186 @@
+@charset "UTF-8";
+/* CSS Document */
+@font-face {
+    font-family: 'stanislavstanislav';
+    src: url('fonts/stanislav-webfont.eot');
+    src: url('fonts/stanislav-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/stanislav-webfont.woff2') format('woff2'),
+         url('fonts/stanislav-webfont.woff') format('woff'),
+         url('fonts/stanislav-webfont.ttf') format('truetype'),
+         url('fonts/stanislav-webfont.svg#stanislavstanislav') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+	
+html,*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	/* background-color:#e1f2da; */
+	}
+	
+body {
+	width: 90%;
+	margin:auto;
+	background:url(images/background.png) no-repeat;
+	background-size: cover; 
+	font-family:'stanislavstanislav',sans-serif;
+	color:#819e57;
+	/* background-color: #92a8d1; */
+	}
+
+
+.clear{
+	clear:both;
+	}	
+
+
+/*---------------------Header----------------------------------*/	
+header {
+	
+	}	
+h1{
+	display: none;
+	} 
+
+#logo{
+	margin-left: 40px;
+	margin-top: 30px;	
+}
+#social{
+	position:absolute;
+	top: 30px;
+	right: 50px;
+
+}
+
+ 
+/*---------------------Main----------------------------------*/	
+main{
+   padding-top: 70px;
+   height: 60%;/*	400px*/
+   width: 100%;
+	}
+
+		
+article{
+	width: 60%;
+	margin:auto;
+	float: left;
+	}		 
+article p{	
+   font-size:1em;
+   text-indent:50px;
+   padding:15px 5px 15px  25px ;
+   line-height: 19px;
+}
+aside{
+	width:40%;
+	display:inline-block;
+	text-align:center;
+		}			
+aside p{
+	font-size:0.938em;
+		}	
+
+		
+/*---------------------Footer----------------------------------*/	
+
+footer p {
+   font-size:0.750em;
+   padding-top: 100px;
+
+	}
+
+footer .left  p{
+	  /* padding-left: 5px; */
+	  width: 50%;
+	  float:left;
+}
+footer .right p{
+	 width: 49%;
+	 float:right;
+	 text-align: right;
+}
+
+footer a{
+	font-size:0.938em;
+	color:#819e57;
+	}	
+
+#social2{
+	display:none;
+}
+
+
+
+
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 480px){
+body{
+	background:url(images/background.png) no-repeat;
+	background-size: auto 100%;
+}
+	
+/*---------------------Header----------------------------------*/	
+header {
+	width: 100%;
+}
+
+
+#logo{
+	margin-top: 10px;	
+	
+	margin-left: auto;
+	margin-right:auto;
+	/* border: solid 1px black; */
+
+
+}
+#social{
+	display:none;
+}
+
+#logo a img{
+	width: 100%;
+	margin: auto;
+}
+
+
+
+/*---------------------Main----------------------------------*/	
+
+article {
+	width:100%;
+}
+aside{
+	width: 100%;
+}
+
+/*---------------------Footer----------------------------------*/	
+footer{
+	padding-top: 50px;
+}
+footer p {
+   font-size:0.50em;
+   padding-top: 10px;
+   
+	}
+footer .left  p, footer .right p{
+	float: none;
+	text-align: center;
+	width: 100%;
+}
+#social2{
+display: inline;
+margin:0 45%;
+	
+
+}
+
+}
