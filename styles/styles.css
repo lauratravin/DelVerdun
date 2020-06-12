@@ -2,12 +2,12 @@
 /* CSS Document */
 @font-face {
     font-family: 'stanislavstanislav';
-    src: url('fonts/stanislav-webfont.eot');
-    src: url('fonts/stanislav-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/stanislav-webfont.woff2') format('woff2'),
-         url('fonts/stanislav-webfont.woff') format('woff'),
-         url('fonts/stanislav-webfont.ttf') format('truetype'),
-         url('fonts/stanislav-webfont.svg#stanislavstanislav') format('svg');
+    src: url('../fonts/stanislav-webfont.eot');
+    src: url('../fonts/stanislav-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/stanislav-webfont.woff2') format('woff2'),
+         url('../fonts/stanislav-webfont.woff') format('woff'),
+         url('../fonts/stanislav-webfont.ttf') format('truetype'),
+         url('../fonts/stanislav-webfont.svg#stanislavstanislav') format('svg');
     font-weight: normal;
     font-style: normal;
 }
